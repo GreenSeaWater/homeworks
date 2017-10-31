@@ -1,0 +1,5 @@
+Eng_students = input()                           
+ENG = set(raw_input().split())
+French_students = input()
+FRENCH = set(raw_input().split())
+print len(ENG - FRENCH)
